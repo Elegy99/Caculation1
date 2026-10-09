@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "运算1\\x64\\Debug\\源.obj",
+            "outputs": [
+                "运算1\\x64\\Debug\\源.cpp.obj.dt.module.json",
+                "运算1\\x64\\Debug\\源.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

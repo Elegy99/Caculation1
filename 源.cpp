@@ -9,6 +9,7 @@ int main(void)
 	y = x * x * x + 4;
     cout << y << endl;
 	cin.get();
+
 	return 0;
 }
 /**************************************
