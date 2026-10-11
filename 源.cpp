@@ -1,9 +1,9 @@
-ï»¿#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main(void)
 {
-	cout << "è®¡ç®—å‡½æ•°y=x^3+4ä¸­çš„yå€¼" << endl;
-	cout << "è¯·è¾“å…¥xçš„å€¼ï¼šx=";
+	cout << "¼ÆËãº¯Êıy=x^3+4ÖĞµÄyÖµ" << endl;
+	cout << "ÇëÊäÈëxµÄÖµ£ºx=";
 	int x,y;
 	cin >> x;
 	y = x * x * x + 4;
@@ -13,8 +13,24 @@ int main(void)
 	return 0;
 }
 /**************************************
-å¯ä»¥ä½¿ç”¨ä»¥ä¸‹ä»£ç æ¥å¢å¤§å¯è¾“å‡ºæœ€å¤§æ•°å€¼ï¼š
-ç¬¬ä¸ƒè¡Œèµ·ï¼šint x;
+¿ÉÒÔÊ¹ÓÃÒÔÏÂ´úÂëÀ´Ôö´ó¿ÉÊä³ö×î´óÊıÖµ£º
+µÚÆßĞĞÆğ£ºint x;
           long long y;
-ç¬¬ä¹è¡Œï¼šy=(long long)x*x*x+4;
+µÚ¾ÅĞĞ£ºy=(long long)x*x*x+4;
 ***************************************/
+#include<iostream>
+using namespace std;
+int main(void)
+{
+	cout << "ÇëÊäÈëÁ½¸öÕıÕûÊı½øĞĞ¼ÓºÍÔËËã£º" << endl;
+	cout << "ÊäÈëÊı×ÖºóÇë°´»Ø³µÒÔ¼ÌĞø" << endl;
+	int x, y, z;
+	cout << "x=";
+	cin >> x;
+	cout << "y=";
+	cin >> y;
+	z = x + y;
+	cout << z << endl;
+	system("pause");//²¡¶¾Ä¾Âí¾­³£µ÷ÓÃsystem()º¯Êıµ÷È¡cmd,³ÌĞò±»×èÖ¹Ô­ÒòÊÇÉ±¶¾Èí¼ş¼à²â£¬¿É»»ÓÃcin.get();
+	return 0;
+}
