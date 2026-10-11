@@ -27,7 +27,7 @@ int main(void)
 	int x, y, z;
 	cout << "x=";
 	cin >> x;
-	cout << "y=";
+	cout << "y=";//可以采用cin>>x>>y;的形式实现持续输入（）
 	cin >> y;
 	z = x + y;
 	cout << z << endl;
